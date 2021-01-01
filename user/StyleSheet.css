@@ -1,0 +1,56 @@
+﻿*{
+    box-sizing:border-box;
+    padding:0px;
+    margin:0px;
+}
+body {
+    background-color:lightpink;
+    background-size:cover;
+}
+p{
+    text-decoration:dotted;
+    color:white;
+}
+nav a{
+    text-decoration:solid;
+}
+table tr td{
+    text-align:right;
+}
+h1,h5{
+    text-align:center;
+}
+#signup {
+            max-width:40%;
+            margin-left: 30% ;
+            position :center;
+        }
+#login{
+    background-color:red;
+         max-width:40%;
+            margin-left: 30% ;
+            padding-left:5%;
+            position :center;
+}
+ .category1 {
+     position:relative;
+    display:flex;
+    flex-wrap:wrap;
+        }
+ .category1 span{
+   
+  display:block;
+  width:150px;
+  height:50px;
+  background: #153664;
+  line-height: 55px;
+  text-align: center;
+  margin: 10px 10px;
+  border-radius: 15px;
+  box-shadow:-2px -2px 3px rgba(255,255,255,0.05), 3px 3px 3px rgba(0,0,0,0.2) 
+}
+ .category1 span:hover{
+     background-color:#082b0c;
+     box-shadow: 0 0 40px #2906de;
+ }
+ 
